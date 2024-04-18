@@ -5,7 +5,7 @@ import Grass from "./components/Grass"
 
 export default function App() {
   return (
-    <Canvas camera={{ position: [15, 15, 10] }}>
+    <Canvas camera={{ position: [15, 25, 25] }}>
       <Sky azimuth={1} inclination={0.6} distance={1000} />
       <ambientLight />
       <pointLight position={[10, 10, 10]} />
